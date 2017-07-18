@@ -1,0 +1,125 @@
+/* Tag */
+
+
+
+/* IDs */
+#banner {
+  background-image: url("/static/img/banner-1.jpg");
+  height: 85vh;
+}
+#navigate {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background: transparent;
+  border-bottom: 1px solid white;
+}
+#nav-text {
+  margin: 0px;
+  width: 275px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 4px 7px black;
+  float: left;
+}
+#nav-links {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  float: right;
+}
+#nav-links > li {
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  padding: 0px 15px;
+  display: inline-block;
+}
+#nav-links > li > a {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+}
+#nav-links > li:hover {
+  background: white;
+}
+#nav-links > li:hover a {
+  color: black;
+}
+#banner-text {
+  margin: 0px;
+  text-align: center;
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 4px 7px black;
+  padding-top: 30vh;
+}
+
+
+/* Classes */
+.dim {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  opacity: 0.65;
+}
+.text-bold {
+  font-weight: bold;
+}
+
+.pos-rel {
+  position: relative;
+}
+.pos-abs {
+  position: absolute;
+}
+.bar-padd-1 {
+  padding: 45px 0px;
+}
+.bar-padd-2 {
+  padding: 45px;
+}
+.emp-1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.emp-1 > i.fa {
+  font-size: 48px
+}
+
+.bg-white {
+  background: white;
+}
+.bg-grey {
+  background: grey;
+}
+.bg-grey-1 {
+  background: #d9d9d9;
+}
+.bg-grey-2 {
+  background: #f2f2f2;
+}
+.bg-grey-3 {
+  background: lightgrey;
+}
+.bg-grey-4 {
+  background: #bfbfbf;
+}
+.bg-grey-5 {
+  background: #fbfbfb;
+}
+.bg-black {
+  background: black;
+}
+.text-white {
+  color: white;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mix Avenue | Welcome!</title>
+  <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="/static/css/emerald.css" />
+  <link rel="stylesheet" type="text/css" href="https://ryanwaite28.github.io/my-cdn/css/font-awesome.css" />
+  <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+  <link rel="icon" type="image/" href="" size="20x20" />
+
+  <script src="/static/js/jquery.js"></script>
+  <script src="/static/js/bootstrap.js"></script>
+  <script src="/static/js/angular.js"></script>
+  <script src="/static/js/script.js"></script>
+</head>
+
+<body>
+
+  <div id="navigate" class="transition">
+    <h1 id="nav-text">MIX AVENUE</h1>
+
+    <ul id="nav-links">
+      <li class="transition"><a class="transition" title="" href="">About</a></li>
+      <li class="transition"><a class="transition" title="" href="">Contact</a></li>
+      <li class="transition"><a class="transition" title="" href="">Share</a></li>
+      <li class="transition"><a class="transition" title="" href="">Login</a></li>
+    </ul>
+  </div>
+
+  <!--  -->
+
+  <div class="container-fluid" id="main-container">
+    <header id="banner" class="row fill pos-rel">
+      <div class="dim"></div>
+      <div class="col-md-12 rev-1">
+        <h3 id="banner-text">Creating Good Music<br/>At All Costs</h3>
+      </div>
+    </header>
+
+    <div class="row bar-padd-1 bg-grey-1">
+      <div class="col-md-6 col-md-offset-3 rev-1">
+        <h2 class="text-center text-bold">Share The Magic</h2>
+        <p class="emp-1 text-center">
+          <i class="fa fa-music" aria-hidden="true"></i>
+        </p>
+        <p class="emp-1 text-center rev-1">
+          Mix Avenue is all about helping a fellow artist/engineer craft what could be the next hit song!
+        </p>
+        <p class="emp-1 text-center rev-1">
+          By sharing mixing and mastering templates from sessions and/or plugins, songs can be completed by anyone, anywhere, at any time, while learning tips from one another!
+        </p>
+      </div>
+    </div>
+
+    <div class="row bar-padd-2 rev-1">
+      <div class="col-md-4">
+        <p class="emp-1 text-center">
+          <i class="fa fa-upload" aria-hidden="true"></i>
+        </p>
+        <p class="emp-1 text-center">
+          Found a good state in a plugin/session that your working on? Save it and upload it!
+        </p>
+      </div>
+      <div class="col-md-4">
+        <p class="emp-1 text-center">
+          <i class="fa fa-globe" aria-hidden="true"></i>
+        </p>
+        <p class="emp-1 text-center">
+          Share that template/state with other artists/engineers across the world!
+        </p>
+      </div>
+      <div class="col-md-4">
+        <p class="emp-1 text-center">
+          <i class="fa fa-download" aria-hidden="true"></i>
+        </p>
+        <p class="emp-1 text-center">
+          Looking for a template/session to use? Search various categories from various users!
+        </p>
+      </div>
+    </div>
+
+    <div class="row bar-padd-1 bg-grey-2 rev-1">
+      <div class="col-md-6 col-md-offset-3">
+        <h2 class="text-center text-bold">Login With Google/Facebook</h2>
+        <hr style="border-color: grey;" />
+        <p class="emp-1 text-center">
+          <a title=""><i class="fa fa-google" aria-hidden="true"></i>
+            <br/>
+            Google</a>
+        </p>
+        <br>
+        <p class="emp-1 text-center">
+          <a title=""><i class="fa fa-facebook" aria-hidden="true"></i>
+            <br/>
+            Facebook</a>
+        </p>
+      </div>
+    </div>
+
+    <footer class="row bar-padd-1 bg-black rev-1">
+      <div class="col-md-8 col-md-offset-2 text-white">
+        <p class="emp-1 text-bold">New Expressions</p>
+        <p class="">Copyright (c) 2017 Copyright Holder All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      var revONE = {
+        origin: "top",
+        distance: "32px",
+        duration: 500,
+        delay: 500,
+        scale: 0
+      };
+
+      window.sr = ScrollReveal({duration: 500});
+      sr.reveal('.rev-1', revONE);
+    });
+  </script>
+</body>
+
+</html>
